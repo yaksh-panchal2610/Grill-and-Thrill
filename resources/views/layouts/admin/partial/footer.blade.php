@@ -1,0 +1,20 @@
+<footer class="main-footer">
+    <div class="gt-pfooter">
+        <p>&copy; {{ date('Y') }} <a href="{{ URL::to('/') }}">Grill and Thrill</a> · Admin panel</p>
+
+        <nav class="gt-pfooter__links" aria-label="Footer">
+            <a href="{{ URL::to('/') }}" target="_blank" rel="noopener"><i class="fa fa-external-link" aria-hidden="true"></i> View website</a>
+            <a href="tel:02085514329"><i class="fa fa-phone" aria-hidden="true"></i> 020 8551 4329</a>
+        </nav>
+    </div>
+</footer>
+
+<!-- Control Sidebar (kept empty so AdminLTE scripts don't break; hidden by CSS) -->
+<aside class="control-sidebar control-sidebar-dark">
+    <ul class="nav nav-tabs nav-justified control-sidebar-tabs"></ul>
+    <div class="tab-content">
+        <div class="tab-pane" id="control-sidebar-home-tab"></div>
+        <div class="tab-pane" id="control-sidebar-settings-tab"></div>
+    </div>
+</aside>
+<div class="control-sidebar-bg"></div>
